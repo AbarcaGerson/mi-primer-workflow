@@ -25,6 +25,9 @@ else
   exit 1
 fi
 
+# Mostrar el entorno de la aplicación
+echo "Entorno: $APP_ENV"
+
 echo ""
 echo "✅ Todas las pruebas pasaron exitosamente 🎉"
 exit 0
